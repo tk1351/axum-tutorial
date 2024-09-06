@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+async-trait = "0.1.82"
 axum = { version = "0.7.5", features = ["macros"] }
 lazy-regex = "3.3.0"
 serde = { version = "1.0.209", features = ["derive"] }
